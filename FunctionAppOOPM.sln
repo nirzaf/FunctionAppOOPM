@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionAppOOPM", "FunctionAppOOPM.csproj", "{8204EA38-4A74-41B5-8137-37083B676E89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8204EA38-4A74-41B5-8137-37083B676E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8204EA38-4A74-41B5-8137-37083B676E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8204EA38-4A74-41B5-8137-37083B676E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8204EA38-4A74-41B5-8137-37083B676E89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBA17E15-5C4C-4255-BF2A-EFF20C8F8C95}
+	EndGlobalSection
+EndGlobal
