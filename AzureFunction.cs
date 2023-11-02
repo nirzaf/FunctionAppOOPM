@@ -5,16 +5,16 @@ using Microsoft.Extensions.Logging;
 
 namespace FunctionAppOOPM
 {
-    public class Function1
+    public class AzureFunction
     {
         private readonly ILogger _logger;
 
-        public Function1(ILoggerFactory loggerFactory)
+        public AzureFunction(ILoggerFactory loggerFactory)
         {
-            _logger = loggerFactory.CreateLogger<Function1>();
+            _logger = loggerFactory.CreateLogger<AzureFunction>();
         }
 
-        [Function("Function1")]
+        [Function("AzureFunction")]
         public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequestData req)
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
