@@ -77,9 +77,4 @@ public class AzureFunction
             return true;
         }
     }
-    
-    public class NumberData
-    {
-        public int Number { get; set; }
-    }
 }
