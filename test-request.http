@@ -1,0 +1,6 @@
+﻿POST http://localhost:7071/api/CheckIfPrimeNumberOrNot 
+Content-Type: application/json
+
+{
+  "Number": 11
+}
