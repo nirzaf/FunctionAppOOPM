@@ -4,7 +4,7 @@ using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Azure.WebJobs.Extensions.OpenApi.Core.Attributes;
 using Microsoft.Extensions.Logging;
 
-namespace FunctionAppOOPM;
+namespace FunctionAppOutOfProcessModel;
 
 public class AzureFunction
 {

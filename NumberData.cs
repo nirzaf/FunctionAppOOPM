@@ -1,4 +1,4 @@
-﻿namespace FunctionAppOOPM;
+﻿namespace FunctionAppOutOfProcessModel;
 
 public class NumberData
 {
